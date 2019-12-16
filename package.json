@@ -1,9 +1,16 @@
 {
-  "name": "PippiHiroba",
+  "name": "s3-json",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.590.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "expect": "^24.9.0",
+    "mocha": "^6.2.2"
   }
 }
